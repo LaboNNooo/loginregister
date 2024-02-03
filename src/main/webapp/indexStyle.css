@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+body {
+	align-items: center ;
+	background-color : #AEFD6C;
+	font-family : 'Ariel',sans-serif;
+	justify-content : center ;
+	height : 100vh ;
+	margin : 0 ;
+	background-color :#AEFD6C ;
+	background-image : url('backgr.png');
+	background-size : cover;
+	background-position : center center ;
+	background-repeat : no-repeat ;
+	color : #333 ;
+	display : flex ;
+	flex-direction : column ;
+}
+.container{
+	width: 600 px;
+	padding : 20 px;
+	border-radius : 0 0 10px rgba (o,o,1,0.5);
+	background-color : white ;
+	text-align : center ;
+}
+h1{
+	font-weight : bold ;
+	color : #007BFF ;
+}
+p{
+	margin : 20px 0 ;
+	line-height : 1.6;
+}
+.links a {
+	margin : 0 10px;
+	text-decoration : none ;
+	color : #007BFF ;
+	font-weight : bold ;
+	transition : color 0.3 sec ease;
+}
+.links a:hover{
+	color : #0056B3 ;
+	font-size : 20px ;
+	text-transform : uppercase ;
+}
